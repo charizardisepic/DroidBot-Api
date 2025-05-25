@@ -61,6 +61,9 @@ def index():
             <div>
                 <button class="control-btn" onclick="addCommand('B')">↓<br>Reverse</button>
             </div>
+            <div>
+                <button class="control-btn" onclick="addCommand('Z')">🔔<br>Buzzer</button>
+            </div>
         </div>
         
         <div>
