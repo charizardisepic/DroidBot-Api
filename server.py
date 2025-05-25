@@ -133,7 +133,7 @@ def add_to_queue():
     command = data.get("command", "").upper()
     
     # Validate command
-    valid_commands = ['F', 'B', 'L', 'R', 'S']
+    valid_commands = ['F', 'B', 'L', 'R', 'S', 'Z']  # Added 'Z' for buzzer
     if command not in valid_commands:
         return jsonify({"error": "Invalid command"}), 400
     
